@@ -4,5 +4,5 @@ vim.cmd("set softtabstop=2")
 vim.cmd("set shiftwidth=2")
 vim.cmd("set number")
 vim.g.mapleader = " "
-
+vim.api.nvim_set_keymap('i', 'jk', '<Esc>', { noremap = true, silent = true })
 
